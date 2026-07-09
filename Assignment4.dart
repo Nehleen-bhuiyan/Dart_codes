@@ -124,6 +124,7 @@ Choose Option: """);
         print("Total expenses:");
         print(Expense.totalAmount.formatAmount());
       case 4:
+        print("Thank you for using the Expense Tracker. Goodbye!");
         break;
       default:
         print("Invalid choice. Please try again.");
