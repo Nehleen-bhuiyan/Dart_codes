@@ -16,9 +16,9 @@ class Expense {
   }
 
   void display() {
-    print('Title: $title');
-    print('Amount: ${amount.formatAmount()}');
-    print('Category: $category');
+    print(
+      'Title: $title   - Amount: ${amount.formatAmount()}   - Category: $category',
+    );
   }
 }
 
